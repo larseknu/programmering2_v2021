@@ -1,3 +1,5 @@
+package no.hiof.larseknu;
+
 import java.time.LocalDate;
 import java.util.ArrayList;
 

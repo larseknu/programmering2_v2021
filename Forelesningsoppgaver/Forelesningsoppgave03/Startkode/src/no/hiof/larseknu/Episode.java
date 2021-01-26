@@ -1,3 +1,5 @@
+package no.hiof.larseknu;
+
 public class Episode {
     private int episodeNummer, sesongNummer;
     private String tittel;
