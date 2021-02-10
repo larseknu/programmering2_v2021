@@ -1,13 +1,18 @@
-package no.larseknu.hiof.flyoversikt;
+package no.hiof.larseknu.flyoversikt;
 
-/**
- * Representerer et fly
- */
 public class Fly {
     // Instansvariabler
     private String modell;
     private int seter;
     private int passasjerer;
+    // Klassevariabel (statisk feltvariabel)
+    private static int totaltAntallPassasjerer = 0;
+
+    /**
+     * Tom kontruktør
+     */
+    public Fly() {
+    }
 
     /**
      * Konstruktør for klassen Fly
@@ -39,10 +44,15 @@ public class Fly {
         if (passasjerer < seter) {
             // Hvis det er mindre, legg til en passasjer
             passasjerer++;
+            totaltAntallPassasjerer++;
         }
         else
             // Hvis det ikke er ledige seter, skriv ut melding
             System.out.println("Ingen ledige seter tilgjengelig");
+    }
+
+    public static int getTotaltAntallPassasjerer() {
+        return totaltAntallPassasjerer;
     }
 
     public String getModell() {
