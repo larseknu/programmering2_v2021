@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Main - med argumenter" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="no.hiof.larseknu.Main" />
+    <module name="07_2" />
+    <option name="PROGRAM_PARAMETERS" value="7 9" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
