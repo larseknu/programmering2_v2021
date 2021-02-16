@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="NyKjoring" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="no.hiof.larseknu.NyMain" />
+    <module name="OpenLectureCode" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
