@@ -1,0 +1,9 @@
+package no.hiof.larseknu.mapoflife;
+
+public class Application {
+
+    public static void main(String[] args) {
+
+    }
+
+}
