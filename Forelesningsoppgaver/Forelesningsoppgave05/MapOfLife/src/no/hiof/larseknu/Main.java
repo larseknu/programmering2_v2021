@@ -13,7 +13,7 @@ public class Main {
         System.out.println(spiderBee.getName() + " has " + spiderBee.getNumberOfLegs() + " legs");
 
         Observation spiderBeeObserved = new Observation(1000, "Flying spider!!!!", spiderBee,
-                LocalDate.now(), 9001, "DANGEROUS! Don't get to close, they sting!");
+                LocalDate.now(), 9001, "DANGEROUS! Don't get too close, they sting!");
 
         System.out.println(spiderBeeObserved.getObservedAnimal().getName() + " - " + spiderBeeObserved.getDescription());
     }
